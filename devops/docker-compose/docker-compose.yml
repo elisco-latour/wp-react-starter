@@ -39,7 +39,7 @@ services:
             PMA_HOST: mysql
 
     wordpress:
-        image: wordpress:5.4.0-apache
+        image: wordpress:6.5.2-apache
         networks:
             - locl
         volumes:
